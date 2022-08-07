@@ -7,8 +7,13 @@
 <script src="<?php echo base_url().'/assets/js/custom.js'?>"></script>
 <script src="<?php echo base_url().'/assets/js/jquery.mixitup.min.js'?>"></script><script type="text/javascript" src="https://l2.io/ip.js?var=userip">       </script>
 <script src="<?php echo base_url().'/assets/js/slick.min.js'?>"></script>
+<script src="<?php echo base_url().'/assets/js/jquery.magnific-popup.js'?>"></script>
 <script type="module" src="<?php echo base_url().'/assets/js/event-handler.js'?>"></script>
+<script src="<?php echo base_url().'/assets/js/intlTelInput.js'?>"></script>
+<script type="module" src="<?php echo base_url().'/assets/js/scrollspy.js'?>"></script>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip">       </script>
+         <script>
