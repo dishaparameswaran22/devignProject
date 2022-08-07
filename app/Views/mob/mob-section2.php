@@ -1,4 +1,60 @@
-<section class="page-section bg-shape-image-position" id="servicecol">
+
+<style>
+   .process-box {
+    background: #FA7378;
+    color: #fff;
+    padding: 25px;
+    border-radius: 15px;min-height: 330px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.process-box img {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.process-box h5 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.process-box ul li {
+    padding-left: 25px;
+}
+.process-box ul {
+    padding-left: 140px;
+}
+.process-box h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    display: inline-block;
+    border-bottom: 1px dashed #fff;
+    padding-bottom: 13px;
+    margin-bottom: 20px;
+}
+.process-box.Planning {
+    background: #01B976;
+}
+.process-box.AppDesign {
+    background: #FEC75A;
+}
+.process-box.Development {
+    background: #6564DB;
+}
+.process-box.Deployment {
+    background: #02C1D0;
+}
+.process-box h3, .process-box h5 {
+    color: #fff;
+}
+.process-box.support {
+    background: #EE4135;
+}
+.process-box i {
+    color: #fff;
+}
+</style>
+}<section class="page-section bg-shape-image-position" id="servicecol">
                  <div class="bg-shape-image">
                     <img class="light-image" src="../assets/images/background-shape.svg" alt="Bg images">
                 </div>
@@ -62,3 +118,78 @@
                   </div>
                </div>
             </section>
+
+            <script>
+    
+         function speakToWebsiteExpert() {
+           var name = document.getElementById("name").value;
+          //var phone2 = document.getElementById("phone").value;
+            var email = document.getElementById("email").value;
+            var company = document.getElementById("company").value;
+            var problems = document.getElementById("problems").value;
+           var type=document.getElementById("type").value;
+                      var tested=false;
+                      //var phone = country_code+' '+phone2;
+      //if((email!='')&&(phone2!='')&&(name!=''))   
+      if((email!='')&&(name!=''))   
+      {
+
+       var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+              if(email.match(mailformat))
+             {
+                tested=true;
+             }
+             else
+             {
+               tested= false;
+               alert("Please enter a Valid email address");
+             }
+
+
+
+      }
+
+      else{
+
+        alert("Please enter required fields");
+      }
+
+           if(name!='' && email!='' && company!='' && problems!='' && tested){
+         
+ 
+          
+
+          
+
+            
+
+            
+      $.ajax({
+              type: "POST",
+              url: "contact_process",
+              data: {
+        //phone: phone,
+        name : name,
+        email : email, 
+        company:company,
+        problems : problems,
+        type:type,
+       
+                },
+              cache: false,
+              success: function(data){
+        if(data){
+                    console.log(data);
+          window.location.href = "https://devigntech.com/thank-you.html";
+          
+        }
+              }
+            });
+          }else{
+            alert("All fields are required.")
+          }
+         }
+      </script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css>
+<script type= 'text/javascript' src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
