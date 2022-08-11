@@ -18,7 +18,7 @@
                            <li><a href="https://devigntech.com/web-designing-services"> <i class="fa fa-caret-right" aria-hidden="true"></i> Website Design</a></li>
                            <li><a href="https://devigntech.com/ecommerce-web-development-services-pune-india"><i class="fa fa-caret-right" aria-hidden="true"></i> Ecommerce Development</a></li>
                            <li><a href="https://devigntech.com/web-and-software-application-development"><i class="fa fa-caret-right" aria-hidden="true"></i> Web App Development</a></li>
-                           <li><a href="https://devigntech.com/toronto/mobile-app-development"><i class="fa fa-caret-right" aria-hidden="true"></i> Mobile App Developmentn</a></li>
+                           <li><a href="https://devigntech.com/toronto/mobile-app-development"><i class="fa fa-caret-right" aria-hidden="true"></i> Mobile App Development</a></li>
                         </ul>
                      </div>
                   </div>

@@ -1,4 +1,6 @@
-<section class="page-section portflio-section">
+<html>
+<head>
+    <section class="page-section portflio-section">
             <div class="container">
                 <h2 class="main-headings text-center">Our Mobile App Development Portfolio</h2>
     <div class="row align-items-center">
@@ -106,4 +108,5 @@
 </div>
            </section>
         
- 
+           </body>
+</html>

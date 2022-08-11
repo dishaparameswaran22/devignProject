@@ -11,7 +11,7 @@
                                             </div>
                                             <div class="blog_details" style="
                                                 padding: 1.5em !important;">
-                                                <a class="d-inline-block" href="how-to-guide/website-copywriting">
+                                                <a class="d-inline-block" href="https://devigntech.com/how-to-guide/website-copywriting">
                                                     <h2> DIY Website Copywriting Guide For Your Business</h2>
                                                 </a>
                                                 <ul class="blog-info-link mt-3 mb-4" style="
@@ -33,7 +33,7 @@
                                             </div>
                                             <div class="blog_details" style="
                                                 padding: 1.5em !important;">
-                                                <a class="d-inline-block" href="how-to-guide/wordpress-business-website">
+                                                <a class="d-inline-block" href="https://devigntech.com/how-to-guide/wordpress-business-website">
                                                     <h2>The Ultimate WordPress Guide: How To Make Your First Business Website</h2>
                                                 </a>
                                                 <ul class="blog-info-link mt-3 mb-4" style="
@@ -55,7 +55,7 @@
                                             </div>
                                             <div class="blog_details" style="
                                                 padding: 1.5em !important;">
-                                                <a class="d-inline-block" href="how-to-guide/react-native-todo-app">
+                                                <a class="d-inline-block" href="https://devigntech.com/how-to-guide/react-native-todo-app">
                                                     <h2>How to Create a Todo List App with ReactNative</h2>
                                                 </a>
                                                 <ul class="blog-info-link mt-3 mb-4" style="
@@ -73,7 +73,7 @@
                                                                      </div>
                                     <nav class="blog-pagination justify-content-center d-flex">
                                         <ul class="pagination">
-                                                                                        <li class="page-item active"><a class="page-link" href="how-to-guides/page/1">1</a></li>                                                                                    </ul>
+                                                                                        <li class="page-item active"><a class="page-link" href="http://localhost/devignProject/guide/guidePage">1</a></li>                                                                                    </ul>
                                     </nav>
                                     
                             </div>
